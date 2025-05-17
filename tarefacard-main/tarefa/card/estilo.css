@@ -1,0 +1,73 @@
+body {
+    font-family: 'Fredoka', sans-serif;
+    background: linear-gradient(to right, #fceabb, #f8b500);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    background-image: url('bloonst6formulariolegal.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    padding: 25px;
+    width: 300px;
+    max-width: 90%;
+    transition: transform 0.3s ease;
+    border: 3px solid #ffb300;
+    position: relative;
+}
+
+.card:hover {
+    transform: translateY(-10px) scale(1.02);
+}
+
+.card h2 {
+    color: #f57c00;
+    margin-top: 0;
+}
+
+.card p {
+    margin: 10px 0;
+    color: #333;
+}
+
+.card img.hero-icon {
+    width: 60px;
+    position: absolute;
+    top: -30px;
+    right: -30px;
+    transform: rotate(20deg);
+}
+
+.button-voltar {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff6f00;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.button-voltar:hover {
+    background-color: #e65100;
+}
