@@ -52,13 +52,13 @@
         }
 
         .imagem-container {
-            margin-top: 260px; /* Você pode ajustar esse valor (ex: 150px, 200px...) */
-             margin-left: -300px;    /* Mais pra direita */
+            margin-top: 260px; 
+             margin-left: -300px;    
         }
 
         .imagem-container img {
-            width: 600px;     /* Ajuste a largura como quiser */
-            height: auto;     /* Mantém a proporção */
+            width: 600px;    
+            height: auto;    
             border-radius: 10px;
         }
     </style>
@@ -66,7 +66,7 @@
 
 <body>
     <div class="container">
-        <!-- Conteúdo (esquerda) -->
+      
         <div class="conteudo">
             <h2>Card do Bloonstd6</h2>
             <h3>Aqui você pode fazer seu card de Bloonstd6!!!</h3>
@@ -100,7 +100,7 @@
             </form>
         </div>
 
-        <!-- Imagem (à direita e mais embaixo) -->
+      
         <div class="imagem-container">
             <img src="bloonst6formulariolegal.png" alt="Bloons TD6">
         </div>
