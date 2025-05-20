@@ -88,11 +88,11 @@ class Gerar{
                 text-align: center;
             }
             .info-container {
-                border: 2px solid #007BFF; /* borda azul nas informações */
+                border: 2px solid #007BFF; 
                 border-radius: 8px;
                 padding: 15px;
                 margin-bottom: 15px;
-                background-color: #00cfff; /* fundo claro para destacar */
+                background-color: #00cfff; 
                 color: #333;
             }
             .info-container h2.card-nome {
