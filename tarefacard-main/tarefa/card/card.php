@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <title>Card do Produto</title>
     <style>
-        /* Reset básico */
+      
         * {
             box-sizing: border-box;
         }
@@ -15,7 +15,7 @@
             margin: 0;
             padding: 20px;
             max-width: 100vw;
-            overflow-x: hidden; /* bloqueia scroll horizontal */
+            overflow-x: hidden;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -27,14 +27,14 @@
             justify-content: space-between;
             align-items: center;
             width: 100%;
-            max-width: 900px; /* limita o container pra evitar scroll */
+            max-width: 900px; 
             gap: 20px;
             flex-wrap: nowrap;
         }
 
         .imagem-container,
         .imagem-container2 {
-            width: 100px; /* tamanho fixo para imagens */
+            width: 100px; 
             flex-shrink: 0;
         }
 
@@ -57,7 +57,7 @@
             text-align: center;
             max-width: 400px;
             flex-grow: 1;
-            min-width: 250px; /* para não ficar muito pequeno em telas pequenas */
+            min-width: 250px; 
         }
 
         .card-container h2 {
@@ -89,7 +89,7 @@
             cursor: pointer;
         }
 
-        /* Responsividade simples para telas pequenas */
+       
         @media (max-width: 600px) {
             .main-container {
                 flex-direction: column;
